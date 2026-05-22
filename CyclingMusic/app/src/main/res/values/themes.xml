@@ -1,0 +1,10 @@
+<!-- app/src/main/res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CyclingMusic" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">@color/secondary_color</item>
+        <item name="android:statusBarColor">@color/primary_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

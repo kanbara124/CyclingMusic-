@@ -1,0 +1,16 @@
+# 项目根目录的 .gitignore
+*.iml
+.gradle
+.idea
+local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# 构建输出
+app/build/
+app/*.apk
+app/*.ap_
+*.aab

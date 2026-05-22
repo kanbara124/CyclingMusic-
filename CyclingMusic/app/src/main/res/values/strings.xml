@@ -1,0 +1,6 @@
+<!-- app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">骑行音乐同步</string>
+    <string name="start_riding">开始骑行</string>
+    <string name="stop_riding">停止骑行</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iOS-inspired color palette -->
+    <color name="primary_color">#007AFF</color>
+    <color name="accent_color">#34C759</color>
+    <color name="accent_blue">#007AFF</color>
+    <color name="background">#F2F2F7</color>
+    <color name="background_primary">#F2F2F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="divider">#C6C6C8</color>
+    <color name="separator">#C6C6C8</color>
+    <color name="error">#FF3B30</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Card colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1A000000</color>
+
+    <color name="secondary_color">#34C759</color>
+
+    <!-- Button states -->
+    <color name="button_primary">#007AFF</color>
+    <color name="button_success">#34C759</color>
+    <color name="button_danger">#FF3B30</color>
+</resources>

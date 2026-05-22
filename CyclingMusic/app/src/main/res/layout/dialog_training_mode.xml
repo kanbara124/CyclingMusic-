@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目标踏频训练"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置目标踏频（RPM）"
+        android:textSize="14sp"
+        android:textColor="#8E8E93"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/targetCadenceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="例如：80"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="允许偏差范围（RPM）"
+        android:textSize="14sp"
+        android:textColor="#8E8E93"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/toleranceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="例如：5"
+        android:text="5"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+</LinearLayout>

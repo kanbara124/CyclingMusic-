@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd *)",
+      "Bash(echo *)",
+      "Bash(dir)",
+      "Bash(xargs wc -l)",
+      "Bash(grep -v '\\\\$RECYCLE')",
+      "Bash(./gradlew clean *)",
+      "Bash(cmd //c gradlew.bat clean)",
+      "Bash(./gradlew.bat clean *)",
+      "Bash(cmd.exe /c gradlew.bat clean)",
+      "Bash(find app/src/main/res/mipmap* -name 'ic_launcher*')",
+      "Bash(find app/src/main/res/drawable* -name '*.png' -o -name '*.xml')",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew.bat assembleDebug)",
+      "Bash(cmd //c gradlew.bat assembleDebug)",
+      "Bash(cmd.exe /c gradlew.bat assembleDebug)",
+      "Bash(java -version)",
+      "Bash(java -Xmx64m -Xms64m -classpath 'gradle/wrapper/gradle-wrapper.jar' org.gradle.wrapper.GradleWrapperMain assembleDebug)",
+      "Bash(adb logcat *)",
+      "Bash(./gradlew --stop)",
+      "Bash(cmd.exe /c \"gradlew.bat --stop\")",
+      "Bash(cmd.exe /c \"gradlew.bat clean assembleDebug\")",
+      "Bash(cmd.exe /c \"gradlew.bat clean assembleDebug 2>&1\")",
+      "Bash(cmd.exe *)",
+      "Bash(powershell.exe *)"
+    ]
+  }
+}
